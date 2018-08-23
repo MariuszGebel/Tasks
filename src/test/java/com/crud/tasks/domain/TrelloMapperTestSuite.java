@@ -65,7 +65,7 @@ public class TrelloMapperTestSuite {
         assertEquals("Private", trelloBoardDtoList.get(1).getName());
         assertEquals("3", trelloBoardDtoList.get(2).getId());
         assertEquals("Public", trelloBoardDtoList.get(2).getName());
-        System.out.println("mapToBoardsDtoTest");
+        System.out.println("\nmapToBoardsDtoTest");
         System.out.println(trelloBoardDtoList.get(0).getId() + ", " + trelloBoardDtoList.get(0).getName());
         System.out.println(trelloBoardDtoList.get(1).getId() + ", " + trelloBoardDtoList.get(1).getName());
         System.out.println(trelloBoardDtoList.get(2).getId() + ", " + trelloBoardDtoList.get(2).getName());
@@ -178,4 +178,6 @@ public class TrelloMapperTestSuite {
                 + trelloCardDto.getPos() + ", " + trelloCardDto.getListId());
         System.out.println();
     }
+
+
 }
