@@ -12,12 +12,14 @@ import java.util.List;
 
 import static org.junit.Assert.assertEquals;
 
-@RunWith(SpringRunner.class)
-@SpringBootTest
+//@RunWith(SpringRunner.class)
+//@SpringBootTest
 public class TrelloMapperTestSuite {
 
-    @Autowired
-    private TrelloMapper trelloMapper;
+//    @Autowired
+//    private TrelloMapper trelloMapper;
+
+    private TrelloMapper trelloMapper = new TrelloMapper();
 
     @Test
     public void mapToBoardsTest() {
